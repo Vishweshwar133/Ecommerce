@@ -1,0 +1,151 @@
+.App{
+  width: 100%;
+  height: 100vh;
+}
+.wdt{    
+    width: 90% !important;    
+}    
+.img    
+{    
+    height: 400px !important;    
+    width: 100vw;    
+} 
+.slick-next{
+    right: 20px!important;;
+    z-index: 1100;
+}
+
+.slick-prev{
+    left: 0!important;;
+    z-index: 1100;
+}
+
+.slick-next::before,.slick-prev::before{
+    font-size: 40px!important;
+    
+}
+.pagination {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .pagination li{
+      display: inline-block;
+      min-width: 50px;
+      margin-right: 10px;
+      padding-top: 5px;
+
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100%;
+    text-align: center;    
+    border: 1px solid #6c7ac9;
+    color: #6c7ac9;
+    background-color: white;
+    cursor: pointer;
+    user-select: none;
+  }
+  .pagination a:hover{
+      text-decoration: none;
+      background-color: skyblue;
+  }
+  
+  .pagination__link {
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .pagination__link--active a {
+    color: #fff;
+    background: #6c7ac9;
+  }
+  
+  .pagination__link--disabled a {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+    background-color: gray;
+  }
+
+  .pagination__link--disabled:hover a {
+    background-color: gray;
+  }
+  .Sidebar{
+    height: 60px;
+    width: 100%;
+    
+  }
+  .SidebarList{
+    height: 60px;
+    width: 100%;
+    padding: 0;
+  }
+  .SidebarList .Row:hover{
+    cursor: pointer;
+    background-color: #f1f1f1;
+    
+  }
+  .SidebarList .active{
+    background-color: #f1f1f1;
+    color:white;
+  }
+  .SidebarList .Row{
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: #212529;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .Row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  .Row #title{
+    flex: 70%;
+  }
+  .col-md-3{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+  }
+  .col-md-9{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    max-width: 100%;
+  }
+  hr{
+    background-color: black;
+    height: 1px;
+  }
+  .screen{
+    width: 100%;
+  }
+  .flex{
+    text-align: center;
+    align-items: center;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+  a{
+    color: #212529; 
+  }
+  a:-webkit-any-link {
+    text-decoration: none;
+  }
+  .status-form{
+    padding: 20px;
+  }
